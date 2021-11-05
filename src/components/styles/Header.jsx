@@ -30,10 +30,11 @@ const Header = styled.header`
     background-image: linear-gradient(rgba(64,32,57,0.8),rgba(64,32,57,0.8)),url(${img});
     background-size: cover;
     background-position: center;
+
     .title-box{
         color:#C8BFC7;
         position: absolute;
-        top:40%;
+        top:50%;
         left:50%;
         transform:translate(-50%,-50%);
         color:#C8BFC7;
@@ -57,7 +58,7 @@ const Header = styled.header`
             margin-top:1rem;
             animation: ${moveLeft} 1s ease-out;
         }
-    }
+    }       
 `
 
 export {Header}
