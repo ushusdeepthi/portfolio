@@ -1,19 +1,25 @@
-import React,{useState} from 'react'
+import React,{useContext} from 'react'
+import {Link} from 'react-router-dom'
+import { UserContext } from '../contexts/UserContext'
 import Navigation from './styles/Navigation'
 import MenuStyled from './styles/Menu'
 import logo from '../assets/images/logo-neutral-1.png'
 
 export default function NavBar() {
-    const [openMenu,setOpenMenu] = useState(false)
+    const {openMenu,setOpenMenu}= useContext(UserContext)
+    const handleClick = ()=>{
+        setOpenMenu(false)
+    }
     return (
         <>
         {openMenu ?
+        
         <MenuStyled>
-            <h1 className="close-menu" onClick={()=>setOpenMenu(false)}>X</h1>
-            <h1>home</h1>
-            <h1>About</h1>
-            <h1>Portfolio</h1>
-            <h1>contact</h1>
+            {/* <h1 className="close-menu" onClick={handleClick}>X</h1> */}
+            <h1> <Link to="/" onClick={handleClick}>Home</Link> </h1>
+            <h1> <Link to="/about" onClick={handleClick}>About</Link> </h1>
+            <h1> <Link to="/projects" onClick={handleClick}>Portfolio</Link> </h1>
+            <h1> <Link to="/contact" onClick={handleClick}>contact</Link> </h1>           
         </MenuStyled>
         :
        <Navigation> 
