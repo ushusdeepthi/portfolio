@@ -23,6 +23,20 @@ const moveLeft = keyframes`
      transform: translateX(0)
     }
 `
+const moveUp = keyframes`
+ 0% { 
+     opacity:0;
+     transform: translateY(30rem)
+    }
+ 80% {
+     opacity:1;
+     transform: translateY(-1rem)
+    }
+ 100% {
+     opacity:1
+     transform: translateY(0)
+    }
+`
 
 const Header = styled.header`
     position:relative;
@@ -58,7 +72,22 @@ const Header = styled.header`
             margin-top:1rem;
             animation: ${moveLeft} 1s ease-out;
         }
-    }       
+    }  
+    .social{
+        animation: ${moveUp} 1s ease-out 1s;
+        animation-fill-mode: backwards;
+    }
+    .social a{
+        
+        &:link,&:visited{
+            font-size:3rem;
+            margin: 0 2rem;
+            color:#C8BFC7;
+        }
+        &:hover{
+            color:#fff;
+        }
+    }   
 `
 
 export {Header}

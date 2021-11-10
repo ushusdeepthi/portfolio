@@ -20,10 +20,10 @@ export default function HomePage() {
                             <span className="title--sub">Fullstack developer</span>
                         </div>
                         <div className="social">
-                            <BsFacebook />
-                            <BsGithub />
-                            <BsLinkedin />
-                            <BsInstagram />
+                            <a href=""><BsFacebook /></a>
+                            <a href=""><BsGithub /></a>
+                            <a href=""><BsLinkedin /></a>
+                            <a href=""><BsInstagram /></a>
                         </div>
                     </div>
                } 
