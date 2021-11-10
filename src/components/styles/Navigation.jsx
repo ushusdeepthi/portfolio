@@ -1,26 +1,26 @@
 import styled from 'styled-components';
 
 const Navigation = styled.div`
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
     .logo-box{
+        display:flex;
+        padding:1rem 2rem;
+        align-items:center;
         .logo{
-            position:absolute;
-            top: 2rem;
-            left:2rem;
-            width:6rem;
+           height:8rem;
         }
         h4{
-             position:absolute;
-             top: 1rem;
-             left:9rem;
-             font-size:2.5rem;
+            font-size:2.5rem;
             text-transform: uppercase;
-            color:${props =>props.theme.primary};
+            padding-left:1rem;
+            color:#C8BFC7;
         }
     }
     .menu-box{
-        position: absolute; 
-        top:3rem;
-        right:3.5rem;
+        padding: 0 3.5rem;
+
         & > div{
             width: 3.5rem;
             height: 0.4rem;
