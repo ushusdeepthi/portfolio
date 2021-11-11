@@ -18,11 +18,22 @@ const Container = styled.div`
     `
 
 const Item = styled.div`  
-  padding:5rem;
-  width:${props=> props.lg && "70%" };
-  align-self:${props=> props.center && "center"};
+   padding:5rem 0 0 5rem;
+  flex:0 0 ${({lg,sm})=> lg || sm || "50%" }; //if there is a prop lg, take its value else check if there is a prop sm if yes take its value otherwise fall back to the default value of 50%;
+  .skills{
+    display:flex;
+    flex-wrap:wrap;
+    span{
+      margin:1rem;
+      border: 1px solid black;
+      padding:1rem;
+      border-radius:1rem;
+
+    }
+  }
   .prof-pic{
-    max-width:80%;
+    max-width:100%;
+    align-self:center;
   }
 `
 export {Container,Item,Wrapper} 

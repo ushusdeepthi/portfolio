@@ -8,21 +8,39 @@ export default function AboutPage() {
     return (        
             <Wrapper>
                 <NavBar />
-                <div class="utility">
-                <HeadingSecondary>About</HeadingSecondary>
+                <div className="utility">
+                    <HeadingSecondary>About</HeadingSecondary>
                 </div>
                 <Container>
-                    <Item lg>
-                        Chocolate cake croissant liquorice wafer chocolate lollipop danish sweet oat cake. Chocolate bar bear claw candy canes pie dragée tootsie roll chocolate cake powder. Ice cream cheesecake chocolate cake chupa chups biscuit carrot cake. Cupcake cheesecake topping candy canes danish jelly danish pastry.
-
-Toffee topping danish pie danish sesame snaps. Tiramisu topping donut pudding sesame snaps carrot cake cupcake liquorice. Candy canes croissant chocolate bar chocolate bar chocolate bar pie cake cake gummies.
-
-Sweet apple pie gummies brownie tiramisu croissant carrot cake tootsie roll. Chupa chups danish cupcake chupa chups carrot cake muffin toffee cake chocolate cake. Sugar plum ice cream fruitcake marshmallow wafer. Gummies cotton candy gingerbread cake halvah apple pie marzipan brownie.
+                    <Item lg="70%">
+                         I am a hard-working and passionate fullstack developer with an aptitude to create elegant solutions in an effective manner. I am currently studying a two year course on fullstack web developement at Nacakdemin. I have done projects both individually as as a part of the team during the course of my studies.I am so happy to be at the deployment of my new career as a web developer, aspiring to get a great opportunity to implement my skills and deliver amazing results.
+                         <h2>Skills</h2>
+                         <div className="skills">
+                             <span>Javascript</span>
+                             <span>React</span>
+                             <span>Node.js</span>
+                             <span>HTML5</span>
+                             <span>CSS3</span>
+                             <span>Vue Basics</span>
+                             <span>PHP</span>
+                             <span>Sass</span>
+                             <span>Bootstrap</span>
+                             <span>StyledComponents</span>
+                             <span>MaterialUI/React</span>
+                             <span>Vuetify</span>
+                             <span>MongoDB</span>
+                             <span>MySQL</span>
+                             <span>RESTful API</span>
+                             <span>Git/GitHub</span>
+                             <span>Agile Principles</span>
+                             <span>Scrum</span>
+                         </div>
                     </Item>
-                    <Item >
+                    <Item sm="30%">
                         <img src={img} alt="profile_picture" className="prof-pic" gradient/>
                     </Item>
-                </Container>             
-            </Wrapper>        
+                </Container>  
+                </Wrapper>           
+     
     )
 }
