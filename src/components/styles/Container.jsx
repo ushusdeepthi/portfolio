@@ -14,7 +14,7 @@ const Container = styled.div`
     display:flex;
     background-color:white;  
     justify-content:center;
-    flex-wrap:${props=> props.wrap && "wrap"};
+    flex-wrap:${({wrap})=> wrap};
     `
 
 const Item = styled.div`  

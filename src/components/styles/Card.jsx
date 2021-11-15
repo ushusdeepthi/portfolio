@@ -6,7 +6,7 @@ const Card = styled.div `
     perspective:150rem;
     -moz-perspective: 150rem;
     position:relative;    
-    height:50vh;
+    height:50rem;
     .card__side{
         border-radius: 3px;
         width:100%;

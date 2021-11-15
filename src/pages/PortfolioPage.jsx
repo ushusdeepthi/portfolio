@@ -18,7 +18,7 @@ export default function PortfolioPage() {
                 <div className="utility">
                 <HeadingSecondary>Portfolio</HeadingSecondary>
                 </div>
-                <Container wrap>
+                <Container wrap="wrap">
                     <Card onClick={handleClick}>
                         
                         <div className="card__side card__side--front">
@@ -88,6 +88,15 @@ export default function PortfolioPage() {
                             BACK
                         </div>
                     </Card>
+                    <Card>
+                        <div className="card__side card__side--front">
+                            <img src={webshop} alt="Webshop" className="card__img" />
+                        </div>
+                        <div className="card__side card__side--back">
+                            BACK
+                        </div>
+                    </Card>
+                    
                 </Container>             
             </Wrapper>        
     )
