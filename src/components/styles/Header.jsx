@@ -1,5 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 import img from '../../assets/images/background.jpg'
+import { mediaQueries } from './mediaQueries';
 
 const moveRight = keyframes`
  0% { 
@@ -48,6 +49,7 @@ const Header = styled.header`
     .title-box{
         color:#C8BFC7;
         position: absolute;
+        width:90%;
         top:50%;
         left:50%;
         transform:translate(-50%,-50%);
@@ -62,8 +64,19 @@ const Header = styled.header`
             font-size:6rem;
             letter-spacing:1.1rem;
             animation: ${moveRight} 1s ease-out;
-            
+
+            ${mediaQueries("sm")`
+                font-size: 5rem;
+                letter-spacing:0.75rem;
+                `
+            }
+            ${mediaQueries("xs")`
+                font-size: 3.5rem;
+                letter-spacing:0.5rem;
+            `
+            }                     
         }
+
         &--sub{
             display:block;
             font-size:3rem;
@@ -71,7 +84,24 @@ const Header = styled.header`
             text-transform:uppercase;
             margin-top:1rem;
             animation: ${moveLeft} 1s ease-out;
+
+            ${mediaQueries("sm")`
+                font-size: 2.75rem;
+                letter-spacing:0.5rem;
+            `
+            }       
+            ${mediaQueries("xs")`
+                font-size: 2.3rem;
+                letter-spacing:0.2rem;
+            `
+            }       
+            ${mediaQueries("xxs")`
+                font-size: 2rem;
+                letter-spacing:0.6rem;
+            `
+            }        
         }
+
     }  
     .social{
         animation: ${moveUp} 1s ease-out 1s;
