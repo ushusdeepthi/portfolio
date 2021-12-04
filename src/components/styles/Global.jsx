@@ -13,7 +13,8 @@ html{
         @content;
     } */
     //<900px
-    ${mediaQueries("md")`
+
+    ${mediaQueries("sm")`
     font-size: 56.25%;
     `
     }

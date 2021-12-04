@@ -49,7 +49,7 @@ const Header = styled.header`
     .title-box{
         color:#C8BFC7;
         position: absolute;
-        width:90%;
+        width:100%;
         top:50%;
         left:50%;
         transform:translate(-50%,-50%);
@@ -66,13 +66,18 @@ const Header = styled.header`
             animation: ${moveRight} 1s ease-out;
 
             ${mediaQueries("sm")`
-                font-size: 5rem;
+                font-size:5.5rem;
                 letter-spacing:0.75rem;
                 `
             }
             ${mediaQueries("xs")`
-                font-size: 3.5rem;
+                font-size: 4rem;
                 letter-spacing:0.5rem;
+            `
+            }                     
+            ${mediaQueries("xxs")`
+                font-size: 3.75rem;
+
             `
             }                     
         }
