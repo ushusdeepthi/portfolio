@@ -53,7 +53,25 @@ export default function PortfolioPage() {
                             <img src={starWars} alt="star-wars" className="card__img" />
                         </div>
                         <div className="card__side card__side--back">
-                            BACK
+                            <h1 className="card__heading">
+                                StarWars App
+                            </h1>
+                            <p className="card__text">
+                                This is React App using react router for navigation and styled components and css for styling. The Character details are fetched from swapi api and displayed on the screen
+                            </p>
+                            <ul className="card__list">
+                                <li>React, jsx, react router</li>
+                                <li>Styled Compoenents</li>
+                                <li>CSS</li>
+                            </ul>
+ 
+                            <a  href="https://github.com/ushusdeepthi/Project" className="card__action card__action--code" target="_blank">
+                                source code
+                            </a>
+                            <a href="https://ushusdeepthi.github.io/Project/"className="card__action card__action-app">
+                                app
+                            </a>
+
                         </div>
                     </Card>
                     <Card>
@@ -61,7 +79,25 @@ export default function PortfolioPage() {
                             <img src={yatzy} alt="Yatzy game" className="card__img" />
                         </div>
                         <div className="card__side card__side--back">
-                            BACK
+                                                        <h1 className="card__heading">
+                                Quiz App
+                            </h1>
+                            <p className="card__text">
+                                The project includes the developement of a quiz app using object oriented javascript.The questions are fetched from an external api and rendered one by one.The score of the game is provided at the end.
+                            </p>
+                            <ul className="card__list">
+                                <li>Javascript</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+ 
+                            <a  href="https://github.com/ushusdeepthi/Project" className="card__action card__action--code" target="_blank">
+                                source code
+                            </a>
+                            <a href="https://ushusdeepthi.github.io/Project/"className="card__action card__action-app">
+                                app
+                            </a>
+
                         </div>
                     </Card>
                     <Card>
@@ -69,7 +105,25 @@ export default function PortfolioPage() {
                             <img src={crm} alt="React-CRM" className="card__img" />
                         </div>
                         <div className="card__side card__side--back">
-                            BACK
+                                                        <h1 className="card__heading">
+                                Quiz App
+                            </h1>
+                            <p className="card__text">
+                                The project includes the developement of a quiz app using object oriented javascript.The questions are fetched from an external api and rendered one by one.The score of the game is provided at the end.
+                            </p>
+                            <ul className="card__list">
+                                <li>Javascript</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+ 
+                            <a  href="https://github.com/ushusdeepthi/Project" className="card__action card__action--code" target="_blank">
+                                source code
+                            </a>
+                            <a href="https://ushusdeepthi.github.io/Project/"className="card__action card__action-app">
+                                app
+                            </a>
+
                         </div>
                     </Card>
                     <Card>
@@ -77,7 +131,25 @@ export default function PortfolioPage() {
                             <img src={acme} alt="ACME Events" className="card__img" />
                         </div>
                         <div className="card__side card__side--back">
-                            BACK
+                                                        <h1 className="card__heading">
+                                Quiz App
+                            </h1>
+                            <p className="card__text">
+                                The project includes the developement of a quiz app using object oriented javascript.The questions are fetched from an external api and rendered one by one.The score of the game is provided at the end.
+                            </p>
+                            <ul className="card__list">
+                                <li>Javascript</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+ 
+                            <a  href="https://github.com/ushusdeepthi/Project" className="card__action card__action--code" target="_blank">
+                                source code
+                            </a>
+                            <a href="https://ushusdeepthi.github.io/Project/"className="card__action card__action-app">
+                                app
+                            </a>
+
                         </div>
                     </Card>
                     <Card>
@@ -85,7 +157,25 @@ export default function PortfolioPage() {
                             <img src={webshop} alt="Webshop" className="card__img" />
                         </div>
                         <div className="card__side card__side--back">
-                            BACK
+                                                        <h1 className="card__heading">
+                                Quiz App
+                            </h1>
+                            <p className="card__text">
+                                The project includes the developement of a quiz app using object oriented javascript.The questions are fetched from an external api and rendered one by one.The score of the game is provided at the end.
+                            </p>
+                            <ul className="card__list">
+                                <li>Javascript</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+ 
+                            <a  href="https://github.com/ushusdeepthi/Project" className="card__action card__action--code" target="_blank">
+                                source code
+                            </a>
+                            <a href="https://ushusdeepthi.github.io/Project/"className="card__action card__action-app">
+                                app
+                            </a>
+
                         </div>
                     </Card>
                     <Card>
@@ -93,7 +183,25 @@ export default function PortfolioPage() {
                             <img src={webshop} alt="Webshop" className="card__img" />
                         </div>
                         <div className="card__side card__side--back">
-                            BACK
+                                                        <h1 className="card__heading">
+                                Quiz App
+                            </h1>
+                            <p className="card__text">
+                                The project includes the developement of a quiz app using object oriented javascript.The questions are fetched from an external api and rendered one by one.The score of the game is provided at the end.
+                            </p>
+                            <ul className="card__list">
+                                <li>Javascript</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+ 
+                            <a  href="https://github.com/ushusdeepthi/Project" className="card__action card__action--code" target="_blank">
+                                source code
+                            </a>
+                            <a href="https://ushusdeepthi.github.io/Project/"className="card__action card__action-app">
+                                app
+                            </a>
+
                         </div>
                     </Card>
                     
