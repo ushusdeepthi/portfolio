@@ -18,10 +18,7 @@ html{
     `
     }
     //<600px
-    ${mediaQueries("sm")`
-     font-size: 50%;
-    `
-     }
+
       
     
 }
