@@ -2,15 +2,15 @@ import styled, { keyframes } from 'styled-components';
 
 const Card = styled.div `
     margin:2rem;
-    flex :0 1 20vw;
+    flex :0 1 26vw;
     perspective:150rem;
     -moz-perspective: 150rem;
     position:relative;    
-    height:50rem;
+    height:45rem;
     .card__side{
         border-radius: 3px;
         width:100%;
-        height:50rem;
+        height:45rem;
         position:absolute;
         top:0;
         left:0;
