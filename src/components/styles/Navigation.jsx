@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import { mediaQueries } from "./mediaQueries"
+
 
 const Navigation = styled.div`
     display:flex;
@@ -16,6 +18,9 @@ const Navigation = styled.div`
             text-transform: uppercase;
             padding-left:1rem;
             color:#C8BFC7;
+            ${mediaQueries("xs")`
+                visibility:hidden            `
+            }
         }
     }
     .menu-box{
