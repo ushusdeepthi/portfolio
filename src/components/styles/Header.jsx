@@ -40,11 +40,16 @@ const moveUp = keyframes`
 `
 
 const Header = styled.header`
+    margin:0.5rem;
     position:relative;
     height:100vh;
     background-image: linear-gradient(rgba(64,32,57,0.8),rgba(64,32,57,0.8)),url(${img});
     background-size: cover;
     background-position: center;
+     ${mediaQueries("sm")`
+       margin:0;
+        `
+    }
 
     .title-box{
         color:#C8BFC7;
@@ -57,7 +62,7 @@ const Header = styled.header`
         text-align:center;
     }
     .title{
-        margin-bottom:6rem;
+        margin-bottom:5rem;
         &--main{
             font-weight:600;
             display:block;
