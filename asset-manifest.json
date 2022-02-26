@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.77f00a1b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.77f00a1b.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.8555a734.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.8555a734.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.37da8305.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.37da8305.js.map",
     "static/js/2.04e68677.chunk.js": "/portfolio/static/js/2.04e68677.chunk.js",
     "static/js/2.04e68677.chunk.js.map": "/portfolio/static/js/2.04e68677.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/js/2.04e68677.chunk.js.LICENSE.txt": "/portfolio/static/js/2.04e68677.chunk.js.LICENSE.txt",
-    "static/media/acme.4e85bc9b.jpg": "/portfolio/static/media/acme.4e85bc9b.jpg",
+    "static/media/acme1.3856564a.jpg": "/portfolio/static/media/acme1.3856564a.jpg",
     "static/media/background.5803e610.jpg": "/portfolio/static/media/background.5803e610.jpg",
-    "static/media/crm.199760d8.jpg": "/portfolio/static/media/crm.199760d8.jpg",
-    "static/media/prof_pic.c065a34e.jpg": "/portfolio/static/media/prof_pic.c065a34e.jpg",
-    "static/media/quiz.21844262.jpg": "/portfolio/static/media/quiz.21844262.jpg",
-    "static/media/star-wars.6e627db0.jpg": "/portfolio/static/media/star-wars.6e627db0.jpg",
-    "static/media/webshop.4ac42604.jpg": "/portfolio/static/media/webshop.4ac42604.jpg",
-    "static/media/yatzy.7d6cf7d1.jpg": "/portfolio/static/media/yatzy.7d6cf7d1.jpg"
+    "static/media/crm.42b0bd25.jpg": "/portfolio/static/media/crm.42b0bd25.jpg",
+    "static/media/prof_pic.9c8f2580.jpg": "/portfolio/static/media/prof_pic.9c8f2580.jpg",
+    "static/media/quiz1.09f2aa36.jpg": "/portfolio/static/media/quiz1.09f2aa36.jpg",
+    "static/media/star-wars.2910f292.jpg": "/portfolio/static/media/star-wars.2910f292.jpg",
+    "static/media/todo.b6e17fc8.jpg": "/portfolio/static/media/todo.b6e17fc8.jpg",
+    "static/media/webshop.6beaa038.jpg": "/portfolio/static/media/webshop.6beaa038.jpg",
+    "static/media/yatzy.eeff6cfa.jpg": "/portfolio/static/media/yatzy.eeff6cfa.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.37da8305.js",
     "static/js/2.04e68677.chunk.js",
-    "static/js/main.77f00a1b.chunk.js"
+    "static/js/main.8555a734.chunk.js"
   ]
 }
